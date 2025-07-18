@@ -24,8 +24,8 @@ public class PrometeoCarController : MonoBehaviour
       [Space(10)]
       [Range(20, 190)]
       public int maxSpeed = 90; //The maximum speed that the car can reach in km/h.
-      [Range(10, 120)]
-      public int maxReverseSpeed = 45; //The maximum speed that the car can reach while going on reverse in km/h.
+      [Range(0, 120)]
+      public int maxReverseSpeed = 0; //The maximum speed that the car can reach while going on reverse in km/h.
       [Range(1, 10)]
       public int accelerationMultiplier = 2; // How fast the car can accelerate. 1 is a slow acceleration and 10 is the fastest.
       [Space(10)]
@@ -332,7 +332,7 @@ public class PrometeoCarController : MonoBehaviour
           deceleratingCar = false;
           GoForward();
         }
-        if(Input.GetKey(KeyCode.S)){
+        if(false){
           CancelInvoke("DecelerateCar");
           deceleratingCar = false;
           GoReverse();
