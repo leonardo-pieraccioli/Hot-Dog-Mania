@@ -40,10 +40,10 @@ Material:
     m_Floats:
     - _Divide: 4
     - _EdgeIn: 0
-    - _EdgeOut: 0.37
+    - _EdgeOut: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _offset: 0.03
+    - _offset: 0.02
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
