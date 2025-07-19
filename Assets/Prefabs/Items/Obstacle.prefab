@@ -101,6 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70889271d339ae4cbfde5f47b52900e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _obstacleMeshes:
+  - {fileID: 6648264277313149270, guid: 0144962ef63d115408b9dccafdb18642, type: 3}
+  - {fileID: 226560984531934394, guid: 7680d9291558c544f8b332dd06413941, type: 3}
   _torqueMultiplier: 500
 --- !u!135 &143258981502201123
 SphereCollider:
